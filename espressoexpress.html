@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        body
+        {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .col
+        {
+            padding-left: 22px;
+        }
+        .d-flex
+        {
+            width: 550px;
+            
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(67, 49, 26);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="espressoexpress.html">Espresso Express</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse
+          " data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="coffee.html">Coffee</a></li>
+                  <li><a class="dropdown-item" href="matcha.html">Matcha</a></li>
+                </ul>
+              </li>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search " style="border-radius: 20px;"> 
+                <button class="btn btn-outline-success" type="submit" style="border-radius: 30px; border-style: none;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path></svg></button>
+              </form>
+            </ul>
+          </div>
+          <a href="login.html" button type="button" class="btn btn-link">Login</button></a>
+          <a href="signup.html" button type="button" class="btn btn-link">Signup</button></a>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="slide1.jpg" class="d-block w-100" style="width: 500px;" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="slide2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="slide3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="espresso.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Espresso <button type="button" class="btn btn-secondary" style="margin-left: 200px;">Add to cart</button></h5>
+              <p class="card-text">...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="cappucino.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cappuccino <button type="button" class="btn btn-secondary" style="margin-left: 170px;">Add to cart</button></h5>
+              <p class="card-text">...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="iced ameriano4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Iced Americano <button type="button" class="btn btn-secondary" style="margin-left: 135px;">Add to cart</button></h5>
+              <p class="card-text">...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="iced latte.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vanilla Latte <button type="button" class="btn btn-secondary" style="margin-left: 165px;">Add to cart</button></h5>
+              <p class="card-text">...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="cold coffee.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cold Coffee <button type="button" class="btn btn-secondary" style="margin-left: 170px;">Add to cart</button></h5>
+                <p class="card-text">...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="mocha2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mocha <button type="button" class="btn btn-secondary" style="margin-left: 215px;">Add to cart</button></h5>
+                <p class="card-text">...</p>
+              </div>
+            </div>
+         </div>
+         <div class="col">
+            <div class="card">
+              <img src="hot matcha.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Hot Matcha <button type="button" class="btn btn-secondary" style="margin-left: 170px;">Add to cart</button></h5>
+                <p class="card-text">...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="iced matcha.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Iced Matcha <button type="button" class="btn btn-secondary" style="margin-left: 165px;">Add to cart</button></h5>
+                <p class="card-text">...</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>  
